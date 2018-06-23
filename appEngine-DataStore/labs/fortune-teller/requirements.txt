@@ -1,0 +1,4 @@
+Jinja2==2.10
+MarkupSafe==1.0
+webapp2==2.5.2
+WebOb==1.7.4

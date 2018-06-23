@@ -1,0 +1,69 @@
+/*
+ * Copyright 2018 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+#ball {
+  background-color: black;
+  border-radius: 50%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+#inner {
+  background-color: grey;
+  border: solid thin white;
+  border-radius: 100%;
+  height: 200px;
+  left: 30%;
+  position: relative;
+  top: 30%;
+  width: 200px;
+}
+
+#answer {
+  color: white;
+  text-align: center;
+}
+
+#text {
+  height: 100px;
+  left: 25%;
+  padding-top: 5px;
+  position: relative;
+  top: -45%;
+  width: 100px;
+}
+
+#triangle {
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 120px solid blue;
+  height: 0;
+  left: 14%;
+  position:relative;
+  top: 22%;
+  width: 0;
+}

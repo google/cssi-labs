@@ -17,7 +17,7 @@ solutions for later.
 To create your own local copy of this repository, use the following command:
 
 ``` shell
-git clone https://github.com/google/cssi-curriculum-labs
+git clone https://github.com/google/cssi-labs
 ```
 
 This will create a new folder with all the files you will need for the course.
@@ -29,7 +29,7 @@ will find all the activities for that topic. Each lab or activity has a
 `README.md` file with the instructions. You can find the same instructions in
 the CSSI curriculum website shared with you by your instructors.
 
-### Saving your solutionsi (optional)
+### Saving your solutions (optional)
 
 If you choose to use GitHub to track your solutions, you will **not** be saving
 them to Google's original repository, but you can create your own repository in

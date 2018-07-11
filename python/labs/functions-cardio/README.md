@@ -45,11 +45,11 @@ Write a function `sum_to_n` that takes one argument as an integer `num`, and ret
 
 #### Exercise 4: `is_triangle`
 
-Write a function `is_triangle` that takes three arguments `s1`, `s2`, `s3`, that represents the lengths of the three sides of a triangle.  This is a valid triangle if the sum of two lengths is always greater than the third.
+Write a function `is_triangle` that takes three arguments `s1`, `s2`, `s3`, that represents the lengths of the three sides of a triangle.  This is a valid triangle if the sum of two lengths is always greater than the third. Return the special value `True` if the three arguments represent a valid triangle, or `False` if they do not.
 
 #### Exercise 5: `roll_dice`
 
-Write a function `roll_dice` that takes in an argument `num` representing the number of dice to roll.  Simulate rolling that number of 6-sided die using `import random` and `random.randint(1,6)` to generate a random number between 1 and 6 inclusive.  Remember that if you are rolling for 2 dice, it's not as simple as running `random.randint(2,12)`!  You must roll each die individually to maintain realistic chances - rolling a `2` is much more rare than rolling a `7`!
+Write a function `roll_dice` that takes in an argument `num` representing the number of 6-sided dice to roll, and returns the sum of the `n` rolls.  Simulate rolling that number of 6-sided die using `import random` and `random.randint(1,6)` to generate a random number between 1 and 6 inclusive.  Remember that if you are rolling for 2 dice, it's not as simple as running `random.randint(2,12)`!  You must roll each die individually to maintain realistic chances - rolling a `2` is much more rare than rolling a `7`!
 
 ## Extensions
 

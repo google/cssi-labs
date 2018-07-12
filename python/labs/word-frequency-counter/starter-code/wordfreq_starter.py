@@ -28,7 +28,7 @@ def read_process_data():
 def get_stop_words():
     with open('stop-words.txt') as f:
         content = ' '.join(f.readlines()).replace('\n','').replace('\r','').lower()
-	return content.split(' ')
+        return content.split(' ')
 
 def get_highest_words(counts_dictionary, count):
     highest = sorted(counts_dictionary.items(), key=lambda x:x[1])[::-1][:count]

@@ -8,12 +8,10 @@ You'll be writing each of the functions given below and testing them yourselves.
 function Basic_Alarm(alarmMessage){
   return alarmMessage;
 }
-});
 ```
 In order to test this function, and print it's output to the console, we would add the following line to our code **below** the function.
 ```javascript
 console.log(Basic_Alarm("My alarm!"));
-});
 ```
 If we run our script and see the correct output, then we know our function is working and can move onto the next one! Try this out on the tasks below...
 

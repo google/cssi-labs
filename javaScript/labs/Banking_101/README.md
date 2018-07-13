@@ -16,7 +16,7 @@ Next, you'll call the function and console.log the value returned. Remember, you
 
 One: Call the function and save the returned value in a variable, then console.log the variable.
 ```javascript
-var result = testMe(5);
+let result = testMe(5);
 console.log(result);
 ```
 Two: Do this all in one line as shown below

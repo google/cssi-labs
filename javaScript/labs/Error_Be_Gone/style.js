@@ -23,6 +23,6 @@ return arr
 
 }
 
-var array=[0,0,0,0,0,0]
+let array=[0,0,0,0,0,0]
 console.log(
   uglyCode(array,5))

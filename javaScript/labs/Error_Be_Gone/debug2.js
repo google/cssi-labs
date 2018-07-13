@@ -32,14 +32,14 @@ function getFirstElement(array){
   return array(1);
 }
 
-//Test Functions
+// Test Functions
 
-//Expected output: true
+// Expected output: true
 console.log(checkStringEqualNum("10",10));
 
-//Expected output: false
+// Expected output: false
 console.log(checkNumEven(3));
 
-arr = ["first", "not first"];
-//Expected output first
+let arr = ["first", "not first"];
+// Expected output first
 console.log(getFirstElement(arr));

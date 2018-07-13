@@ -27,7 +27,8 @@ def read_process_data():
 # You do not need to call this function unless you are doing level 3
 def get_stop_words():
     with open('stop-words.txt') as f:
-        return f.readlines()
+        content = ' '.join(f.readlines()).replace('\n','').replace('\r','').lower()
+        return content.split(' ')
 
 def get_highest_words(counts_dictionary, count):
     highest = sorted(counts_dictionary.items(), key=lambda x:x[1])[::-1][:count]

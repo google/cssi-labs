@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-var currentlily = 1;
+let currentlily = 1;
 
-var frogger = /*use a querySelector to grab your frog from your HTML*/;
+let frogger = /*use a querySelector to grab your frog from your HTML*/;
 
 frogger.addEventListener(/* Insert type of event are we listening for */, function(){
 // Insert what should happen when you click on the frog!

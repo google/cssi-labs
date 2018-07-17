@@ -56,5 +56,5 @@ useDefaults(2, 3); //this will return 5
 Let's add some security measures to our code. Create a global variable named logged_in that is initialized to false. This variable will keep track of whether or not your user has logged in. Create another global variable called password.
 * Update your createAccount function to take a password input that sets the global variable.
 * Write a logIn function that takes your name and password as inputs. If the name and password match your global variables, update logged_in to true and return "NAME has logged in." Otherwise, return "Incorrect log in" and set logged_in to false.
-* Write a logOut function that takes no inputs, but sets logged_out to false and returns "NAME has logged out."
+* Write a logOut function that takes no inputs, but sets logged_in to false and returns "NAME has logged out."
 * Update your withdraw and deposit functions so that you cannot withdraw or deposit if you are not logged in. If you are not logged in both functions should return "User must log in." and should not change any values.

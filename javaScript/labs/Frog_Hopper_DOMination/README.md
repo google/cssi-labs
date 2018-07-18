@@ -5,7 +5,7 @@ In this lab you'll be recreating some of the functionality of the frogger game y
 ![Frog image link: https://www.gettyimages.com/detail/photo/frog-bathtub-stopper-royalty-free-image/172183896](https://media.gettyimages.com/photos/frog-bathtub-stopper-picture-id172183896)
 ### Tasks
 
-Complete the tasks below in order! You'll be coding in your script.js file, but feel free to check out the html and css file for any information on styling and classes/ids. You may notice that some styling has been done inline in the HTML file. This is used for the purposes of this lab, but you should try to avoid using this in the future.
+Complete the tasks below in order! You'll be coding in your script.js file, but feel free to check out the html and css file for any information on styling and classes/ids.
 
 
 1. Let's begin by adding an event listener to our frog. Check our your work from the Color Buttons lab for an idea of how to begin. When you click on the frog you should print "hop" to the console.

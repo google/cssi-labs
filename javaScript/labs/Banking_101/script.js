@@ -33,3 +33,4 @@ function widthraw(/*argument here*/){
 }
 
 // Write your script below
+console.log("script is running...");

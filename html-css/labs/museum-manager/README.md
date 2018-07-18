@@ -54,7 +54,7 @@ This wall is a bit more modern, the museum is introducing digital images that ca
   <details>
    <summary>Click for more details</summary>
     <ul>
-      <li>If you're lost on how to create a column, check out the flow-direction property </li>
+      <li>If you're lost on how to create a column, check out the flex-direction property </li>
       <li>The first image in your column should be aligned on the right side of the screen</li>
       <li>The second image should be centered.</li>
       <li>The third image should be left aligned.</li>

@@ -9,7 +9,7 @@ First, write your actual function.
 //First write the function
 function testMe(a){
   return a + 4;
-}
+};
 ```
 
 Next, you'll call the function and console.log the value returned. Remember, you won't see values that are returned, you need to print them for the values to actually appear in your console. You can do this two ways...
@@ -23,9 +23,23 @@ Two: Do this all in one line as shown below
 ```javascript
 console.log(testMe(5));
 ```
-Here is a screenshot of what you would see in your console after running either of these code blocks.
-<!-- Insert image -->
+Here is a snippet of what you would see in your console after running either of these code blocks.
 
+```javascript
+var result=testMe(5);
+undefined
+
+console.log(result);
+9
+undefined
+
+console.log(testMe(5));
+9
+undefined
+```
+
+The `undefined` keyword is only printed if you run the code in the console. If you entered those snippets int he HTML file and then loaded the code, you will only see the output of `console.log()`.
+The reason is that by default if you type something in the console, the browser prints the return value for your convenience, while it does not if you are running the script. Since the `var` and `console.log()` instructions don't return anything, the return value is `undefined`.
 Test your functions with different inputs to make sure they're returning the correct things!
 
 ![](https://media.gettyimages.com/photos/closeup-of-benjamin-franklins-portrait-on-the-one-hundred-dollar-bill-picture-id636176028)

@@ -38,5 +38,5 @@ frog.addEventListener('click', e=>{
 ### Extensions
 * Now that you have your frog hopping from the first lily pad to the second, find a way to make it continue to hop along the path each time you click on it. Take a look at the ids and consider how you can use a counter variable to keep track of which lily pad you're on. Consider what data type you'll need as a counter, what data type you'll need for the id, and how to convert between the two of them.
 * When you reach the last lily pad create a header element and add it to your document. It should say, "Congratulations, you won!"
-* Make one of the lily pads a tricky jump by making it blink ever second. It should alternate between being visible and being invisible.
+* Make one of the lily pads a tricky jump by making it blink every second. It should alternate between being visible and being invisible.
     * Take this a step further, if you land on the lily pad while it is invisible, you should lose the game. You decide what that means.

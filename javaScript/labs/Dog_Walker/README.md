@@ -10,7 +10,7 @@ You've been given a variables named dogName and dogType. You will use the variab
 
 1. Begin by writing a script that prints a basic scheduling statement. This code should use the variable holding the dogs name that needs to be walked and print a string saying "I will walk **\*insert name*** today at 12:00pm".
 
-2. Next, write code that uses two different variables, dogName2 and dogType2. If the dog type is a corgi, console log "I will walk **\*insert name*** today at 12:00pm". Otherwise, print "I will walk **\*insert name*** today at 1:00pm". Test out this code by changing dogType2 to corgi and making sure that the printed statement changes.
+2. Next, write code that uses two different variables, dogName2 and dogType2. If the dog type is a corgi, console log "I will walk **\*insert name*** today at 12:00pm". Otherwise, print "I will walk **\*insert name*** today at 1:00pm". Test out this code by changing to dogType 2 to corgi and making sure that the printed statement changes.
 
 Now you realize that you don't have enough corgis for this to evenly split your clientele, and your 1:00 walk is still very crowded.
 

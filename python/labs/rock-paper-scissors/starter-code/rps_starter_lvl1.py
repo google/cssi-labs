@@ -19,7 +19,7 @@ import random
 
 def get_player_move():
     """Asks the user to enter a move as 'r', 'p', or 's', and return it"""
-    return input("Choose your move [r|p|s]: ").lower()
+    return raw_input("Choose your move [r|p|s]: ").lower()
 
 
 def get_computer_move():

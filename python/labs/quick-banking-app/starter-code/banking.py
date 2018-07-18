@@ -16,5 +16,5 @@
 
 # Replace "pass" with your code
 
-class BankAccount():
+class BankAccount(object):
     pass

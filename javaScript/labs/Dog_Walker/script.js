@@ -13,20 +13,21 @@
 // limitations under the License.
 
 // Task 1
-var dogName1 = "Steve";
-var dogType1 = "beagle";
+let dogName1 = "Steve";
+let dogType1 = "beagle";
 
 // Complete Task 1 Below
 
 
 
-var dogName2 = "Joe";
-var dogType2 = "bulldog";
+let dogName2 = "Joe";
+let dogType2 = "bulldog";
 
 // Complete Task 2 Below
 
 
 
-var dogName = "Lola";
-var dogType = "poodle";
+let dogName = "Lola";
+let dogType = "poodle";
+
 // Complete Task 3 Below

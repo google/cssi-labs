@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-var customer_name;
-var balance;
+let customer_name;
+let balance;
 
 function openAccount(name){
   balance = 0;
@@ -27,7 +27,7 @@ function deposit(value){
   //return the correct statement
 }
 
-function widthraw(/*argument here*/){
+function withdraw(/*argument here*/){
   //update the value of balance
   //return the correct statement
 }

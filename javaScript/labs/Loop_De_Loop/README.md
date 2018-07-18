@@ -4,6 +4,7 @@ At this point in your journey with code you will have learned that loops don't j
 1. ForEach loops
 2. For loops
 3. While loops
+
 Each of these options have unique properties that make them better suited for different kinds of uses. The script.js file you've been given is already linked to your index.html file. When you open up a preview of your html file and use inspect to see the console, you should see "script is running..." printed. This is where all of the outputs of your code will go. Use console.log to print to the console and ensure that the code you're writing is outputting the correct results!
 
 #### Task

@@ -33,11 +33,11 @@ function subTen(number){
 
 // Test Functions
 
-//Expected output: 10
+// Expected output: 10
 console.log(addFive(5));
 
-//Expected output: 5
+// Expected output: 5
 console.log(subTen(15));
 
-//Expected output: Number is not 6
+// Expected output: Number is not 6
 console.log(checkNumis6(7));

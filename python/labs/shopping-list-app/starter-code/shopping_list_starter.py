@@ -27,7 +27,7 @@ while choice.lower() != "e":
     print("c. Check to see if an item is on the list")
     print("d. Show all items on the list")
     print("e. exit")
-    
-    choice = input("Enter your choice [a|b|c|d|e]:")
-    
+
+    choice = raw_input("Enter your choice [a|b|c|d|e]:")
+
     # Your code below! Handle the cases when the user chooses a, b, c, d, or e

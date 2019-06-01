@@ -10,7 +10,7 @@ Fortunately you're not starting from scratch and your friends have provided you
 with some of their favorite activities from their semester abroad.
 Unfortunately, some of the files have gotten mixed up...
 
-![sad!](https://media.giphy.com/media/QajHhLKW3VRcs/giphy.gif)
+![sad!](./img/sad.gif)
 
 
 Don't fret, with the magic of *command line* you'll have them fixed in no time!

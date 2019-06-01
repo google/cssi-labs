@@ -41,7 +41,8 @@ choice. Reorganize the files again, while **staying** in that city.
 
     [Terminus Game](http://www.mprat.org/Terminus/)
 
-    [Advanced Game, be ready to google](https://cmdchallenge.com/#/print_file_contents)
+    [Advanced Game](https://cmdchallenge.com/#/print_file_contents) (be ready
+    to Google)
 
-3. Huge fan of star wars? Try running *telnet towel.blinkenlights.nl* in your
+3. Huge fan of Star Wars? Try running *telnet towel.blinkenlights.nl* in your
 command line and pressing enter...

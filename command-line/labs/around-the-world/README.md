@@ -44,5 +44,7 @@ choice. Reorganize the files again, while **staying** in that city.
     [Advanced Game](https://cmdchallenge.com/#/print_file_contents) (be ready
     to Google)
 
-3. Huge fan of Star Wars? Try running *telnet towel.blinkenlights.nl* in your
-command line and pressing enter...
+3. Huge fan of Star Wars? Try running `telnet towel.blinkenlights.nl` in your
+command line and pressing enter... (Note that in recent versions of MacOS the
+`telnet` command is no longer installed by default, you might have to Google
+how to install it).

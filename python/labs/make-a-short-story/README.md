@@ -1,6 +1,4 @@
 
-# Make a Short Story
-
 ## Background
 
 If you've never played with mad libs before, you're in for a treat.  What is a mad lib, you might ask?  It's an interactive story that lets you, the user, choose a bunch of words, which are then inserted into a story, making for a hilariously nonsensical piece of art.  You'll be programming a simple version of a mad libs program here.

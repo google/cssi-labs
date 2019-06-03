@@ -8,7 +8,8 @@ Clear the current datastore and run it with the admin interactive console enable
 
   `dev_appserver.py  app.yaml --clear_datastore=yes --enable_console=True`
 
-Add the Hogwarts data to your app's datastore by using your browser to go to `http://localhost:8080/seed-data`
+Add the Hogwarts data to your app's datastore by using your browser to go to
+`http://localhost:8080/seed-data`
 
 
 ### Query Challenge
@@ -30,6 +31,9 @@ Use print statements to find:
 * the material of Harry's Wand
 
 ### Query Data to Views
-Using the HouseHandler and `house.html` template as a model, add a new view that shows all of the wands of Student's Hogwarts, their details and the names of their owners.
+Using the HouseHandler and `houselist.html` template as a model, add a new view
+that shows all of the wands of Student's Hogwarts, their details and the names
+of their owners.
 
-If you finish early, continue to build out the Hogwarts app. For a stretch challenge, you can modify some of the models to include images as well.
+If you finish early, continue to build out the Hogwarts app. For a stretch
+challenge, you can modify some of the models to include images as well.

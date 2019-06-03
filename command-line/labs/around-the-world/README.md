@@ -45,6 +45,6 @@ choice. Reorganize the files again, while **staying** in that city.
     to Google)
 
 3. Huge fan of Star Wars? Try running `telnet towel.blinkenlights.nl` in your
-command line and pressing enter... (Note that in recent versions of MacOS the
-`telnet` command is no longer installed by default, you might have to Google
-how to install it).
+command line and pressing enter.... (Note that in recent versions of MacOS the
+`telnet` command is no longer installed by default; in this case the command
+`nc towel.blinkenlights.nl 23` can be used instead.)

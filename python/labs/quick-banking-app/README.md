@@ -1,6 +1,4 @@
 
-# Quick Banking App
-
 ## Background
 
 Financial apps are all the craze now.  Robinhood, Acorn, you name it.  Let's get in on this hype by creating our own, simple, banking app.

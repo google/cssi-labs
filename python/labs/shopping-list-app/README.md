@@ -1,6 +1,4 @@
 
-# Shopping List App
-
 ![](/images/shopping-list.png)
 
 ## Background

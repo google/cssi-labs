@@ -1,5 +1,3 @@
-]
-# Movie Review Database Update
 
 ## Background
 

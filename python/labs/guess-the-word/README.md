@@ -1,6 +1,4 @@
 
-# Guess The Word
-
 ## Background
 
 You've been brought on to build a game to be featured for a new game show.  The game show will be fielding a variety of games for their contestants - the one that YOU are creating is a game where you have to guess a word, letter by letter.  Sound familiar?

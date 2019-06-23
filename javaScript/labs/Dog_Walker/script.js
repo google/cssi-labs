@@ -13,21 +13,21 @@
 // limitations under the License.
 
 // Task 1
-let dogName1 = "Steve";
-let dogType1 = "beagle";
+const dogName1 = "Steve";
+const dogType1 = "beagle";
 
 // Complete Task 1 Below
 
 
 
-let dogName2 = "Joe";
-let dogType2 = "bulldog";
+const dogName2 = "Joe";
+const dogType2 = "bulldog";
 
 // Complete Task 2 Below
 
 
 
-let dogName = "Lola";
-let dogType = "poodle";
+const dogName3 = "Lola";
+const dogType3 = "poodle";
 
 // Complete Task 3 Below

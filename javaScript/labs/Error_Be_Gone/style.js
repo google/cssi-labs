@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-function uglyCode(arr, num){
+const uglyCode =(arr, num)=>{
 if(arr.length == 0) return "array length is zero"
 else{
 

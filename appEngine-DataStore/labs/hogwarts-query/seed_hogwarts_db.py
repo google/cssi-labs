@@ -19,7 +19,7 @@ from hogwarts_models import Student, Wand, House, Course, Enrollment, Teacher
 def seed_data():
     ron_key = Student(student_id=423491377, first_name ="Ron", last_name = "Weasley").put()
     harry_key = Student (student_id=423491782, first_name ="Harry", last_name = "Potter").put()
-    hermione_key = Student(student_id=423491249, first_name="Hermione", last_name="Grainger").put()
+    hermione_key = Student(student_id=423491249, first_name="Hermione", last_name="Granger").put()
     malfoy_key = Student(student_id=42391043, first_name="Draco", last_name="Malfoy").put()
     crabbe_key = Student(student_id=42391122, first_name="Vincent", last_name="Crabbe").put()
     goyle_key = Student(student_id=42391063, first_name="Gregory", last_name="Goyle").put()

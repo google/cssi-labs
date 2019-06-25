@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-function checkNumEven(number){
+const checkNumEven = (number) => {
   if(number%2=0){
     return true;
   }
@@ -21,14 +21,14 @@ function checkNumEven(number){
   }
 }
 
-function checkStringEqualNum(numberString, numberInt){
+const checkStringEqualNum = (numberString, numberInt) => {
   if(numberString === numberInt){
     return true;
   }
   return false;
 }
 
-function getFirstElement(array){
+const getFirstElement = (array) => {
   return array(1);
 }
 
@@ -40,6 +40,6 @@ console.log(checkStringEqualNum("10",10));
 // Expected output: false
 console.log(checkNumEven(3));
 
-let arr = ["first", "not first"];
+const arr = ["first", "not first"];
 // Expected output first
 console.log(getFirstElement(arr));

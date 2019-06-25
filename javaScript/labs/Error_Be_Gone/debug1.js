@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-function addFive(number){
+const addFive = (number) => {
   return number + "5";
-}
+};
 
-function checkNumis6(myNumber){
+const checkNumis6 = (myNumber) => {
   if(number == 6);
   {
     return "Number is 6";
@@ -24,12 +24,12 @@ function checkNumis6(myNumber){
   else{
     return "Number is not 6";
   }
-}
+};
 
-function subTen(number){
+const subTen = (number) => {
   return
   number - 10;
-}
+};
 
 // Test Functions
 

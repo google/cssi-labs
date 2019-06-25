@@ -14,12 +14,8 @@
 
 let currentlily = 1;
 
-let frogger = /*use a querySelector to grab your frog from your HTML*/;
+const frogger = /* Use a querySelector to grab your frog from your HTML */;
 
-frogger.addEventListener(/* Insert type of event are we listening for */, function(){
-// Insert what should happen when you click on the frog!
-
-
-
-
+frogger.addEventListener(/* Insert type of event are we listening for */, (e) => {
+  // Insert what should happen when you click on the frog!
 });

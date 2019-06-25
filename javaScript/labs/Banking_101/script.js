@@ -12,25 +12,25 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-let customer_name;
+let customerName;
 let balance;
 
-function openAccount(name){
+const openAccount = (name) => {
   balance = 0;
   // Set the value for customer_name equal to name below
 
   return //write the statment you need to return here
-}
+};
 
-function deposit(value){
+const deposit = (value) => {
   // update the value of balance
   //return the correct statement
-}
+};
 
-function withdraw(/*argument here*/){
+const withdraw = (/*argument here*/) => {
   //update the value of balance
   //return the correct statement
-}
+};
 
 // Write your script below
 console.log("script is running...");

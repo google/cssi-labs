@@ -1,28 +1,28 @@
 ### Your local technology store has hired you to create their website for them.
 
-All of the images you see in the mockups are located in the images folder. Your
-job is to recreate the website pieces you see below, and combine them to make a
+All of the images you see in the mock-ups are located in the images folder. Your
+job is to recreate the website pieces you see below and combine them to make a
 cohesive site. Use your knowledge of HTML and CSS to make your client happy!
 
 ### Navigation Bar
 Almost every website you look at will have a navigation bar at the top of the
-page, this is a great way to allow users to navigate your site. Recreate the
-basic example below using what you just practiced in the CSS flexbox lab. The
-fonts used in the gif below are from google fonts. Feel free to use whatever
-fonts you think are the most aesthetic.
+page. This is a great way to allow users to navigate your site. Recreate the
+basic example below using what you just practiced in the CSS Flexbox lab. The
+fonts used in the gif below are from Google Fonts. Feel free to use whatever
+fonts you think are the most aesthetically pleasing.
 
 ![](https://media.giphy.com/media/l1IBjf4eowUAeXPQk/giphy.gif)
 
 ### Cards, Part A
 Replicate the card that you see below. You'll want to include an image, article
-title and author name. Think logically, will you want this card above or below
-your navigation bar? Try to stay away from using pixels to size things,
+title, and author name. Think logically: will you want this card above or below
+your navigation bar? Try to stay away from using pixels to size things;
 percentages will keep your page responsive to the page size.
 
 ![](https://media.giphy.com/media/l0HUqLvnQYxPuJQo8/giphy.gif)
 
 ### Cards, Part B
-Populate your page more, add in 1 or 2 more cards, these will serve as your
+Populate your page more: add in 1 or 2 more cards. These will serve as your
 "Top Stories".
 
 ![](https://media.giphy.com/media/3o752jRu6apYpr5pYI/giphy.gif)
@@ -37,19 +37,19 @@ website "The Verge" for inspiration.
 <details>
  <summary>Don't know where to get started? Click here!</summary>
   <ul>
-    <li>Look at the mockups above and figure out which areas are their own
-    divs, draw out a basic wireframe on a piece of paper.</li>
-    <li>Start creating the general areas(divs) that your page will need.
+    <li>Look at the mock-ups above and figure out which areas are their own
+    `div`s. Draw out a basic wireframe on a piece of paper.</li>
+    <li>Start creating the general areas (`div`s) that your page will need.
     Without filling them with content, color the backgrounds in order to create
     the general look that you're going for.</li>
-    <li>Choose one section at a time to recreate, fill in all of the content
-    and html you'll need, then style it until you're happy with the
+    <li>Choose one section at a time to recreate. Fill in all of the content
+    and HTML you'll need, then style it until you're happy with the
     result.</li>
   </ul>
 </details>
 
 <br><br>
-Once you've got the look down work on making your website more responsive. This
+Once you've got the look down, work on making your website more responsive. This
 means that as the size of your window shrinks or grows, your website should
 remain usable and nice to look at.
 

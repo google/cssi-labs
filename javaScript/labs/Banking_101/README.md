@@ -68,7 +68,7 @@ useDefaults(2, 3);  // this will return 5
 ![](https://media.gettyimages.com/photos/vault-door-picture-iddv631022b)
 
 Let's add some security measures to our code. Create a global variable named `loggedIn` that is initialized to `false`. This variable will keep track of whether or not your user has logged in. Create another global variable called `password`.
-* Update your `createAccount` function to take a `password` input that sets the global variable.
-* Write a `logIn` function that takes your name and password as inputs. If the name and password match your global variables, update `loggedIn` to `true` and return "NAME has logged in." Otherwise, return "Incorrect log in" and set `loggedIn` to false.
-* Write a `logOut` function that takes no inputs, but sets `loggedIn` to `false` and returns "NAME has logged out."
-* Update your withdraw and deposit functions so that you cannot withdraw or deposit if you are not logged in. If you are not logged in both functions should return "User must log in." and should not change any values.
+- Update your `createAccount` function to take a `password` input that sets the global variable.
+- Write a `logIn` function that takes your name and password as inputs. If the name and password match your global variables, update `loggedIn` to `true` and return "NAME has logged in." Otherwise, return "Incorrect log in" and set `loggedIn` to false.
+- Write a `logOut` function that takes no inputs, but sets `loggedIn` to `false` and returns "NAME has logged out."
+- Update your withdraw and deposit functions so that you cannot withdraw or deposit if you are not logged in. If you are not logged in both functions should return "User must log in." and should not change any values.

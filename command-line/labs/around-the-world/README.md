@@ -22,9 +22,7 @@ the right monuments inside. Be careful or you might end up in Amsterdam looking
 for the Eiffel Tower!
 
 If you're feeling **REAL** confident with this, hide your GUI and face this
-challenge straight from the command line. You should stay in the general
-around-the-world folder while you do all of this, that means using **absolute**
-paths when referring to folders and files!
+challenge straight from the command line.
 
 Once you're sure everything is in the right place, it's your turn to take
 *command* of your next few months. Brainstorm new cities, countries, and

@@ -1,25 +1,26 @@
 
 ## Background
 
-Financial apps are all the craze now.  Robinhood, Acorn, you name it.  Let's get in on this hype by creating our own, simple, banking app.
+Financial apps are all the craze now: Robinhood, Acorn, you name it.  Let's get in on this hype by creating our own simple banking app.
 
 ## Task
 
 In the provided `banking.py` file, create a `BankAccount` class that represents a bank account.
 
 The first thing you should do is create the constructor, the `__init__` method.  Have the `__init__` method accept two arguments (after `self`):
-* `label`, which represents the name of the bank account
-* `balance`, which represents the amount of money in the bank account
+- `label`, which represents the name of the bank account
+- `balance`, which represents the amount of money in the bank account
 
 Have the constructor initialize  `self.label` and `self.balance` to the given `label` and `balance` values.
 
-Then, run `banking.test.py` to see if you pass test 0.  If you did, then everything is good and you can continue!
+Then, run `banking.test.py` to see if you pass test 0. If you did, then everything is good and you can continue!
 
 Next, create the following methods/behaviors:
-* `__str__` - print out all the information for the BankAccount - the label and balance.
-* `withdraw` - remove money from the balance of the BankAccount.  Prevent people from withdrawing more than they have, or withdrawing a negative amount
-* `deposit` - add money to the balance of the BankAccount.  Prevent people from depositing a negative amount
-* `rename` - change the label of the BankAccount.  Prevent people from naming it blank.
+- `__str__` - print out all the information for the `BankAccount` - the label and balance.
+    - **Note**: if you haven't covered the `__str__` method in class, take a look at [this tutorial](https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch21s04.html) (read the section that starts with "String value of an object with __str__")
+- `withdraw` - remove money from the balance of the `BankAccount`.  Prevent people from withdrawing more than they have, or withdrawing a negative amount
+- `deposit` - add money to the balance of the `BankAccount`.  Prevent people from depositing a negative amount
+- `rename` - change the label of the `BankAccount`.  Prevent people from naming it blank.
 
 After completing each method (in order), you can test your object by running `banking.test.py`.
 
@@ -40,6 +41,6 @@ In addition to having a `BankAccount` class, have a `Transaction` class that con
 
 Then add a new field to the `BankAccount` class called `transactions` which contains a list of `Transaction` objects.  These objects should be created and added to `transactions` every time the user interacts with the account (by withdrawing, depositing, or transferring).
 
-Then add a new option to the main program loop to allow the user to see all the transactions for a specific bank account.
+Add a new option to the main program loop to allow the user to see all the transactions for a specific bank account.
 
 `banking.test.py` does not include tests for this level, so you will have to write your own, or perform testing yourself.

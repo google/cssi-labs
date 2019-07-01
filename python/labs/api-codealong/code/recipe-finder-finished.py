@@ -16,13 +16,13 @@
 
 ingredients = []
 
-enter_more = raw_input("Do you have any specific ingredients to enter? [y|n]:").lower()
+enter_more = raw_input("Do you have any specific ingredients to enter? [y|n]: ").lower()
 
 while enter_more == "y":
-    ingredients.append(raw_input("What is the ingredient? One word only please:").lower())
-    enter_more = raw_input("Do you have any more ingredients to enter? [y|n]:").lower()
+    ingredients.append(raw_input("What is the ingredient? One word only please: ").lower())
+    enter_more = raw_input("Do you have any more ingredients to enter? [y|n]: ").lower()
 
-recipe_type = raw_input("What kind of recipe do you want to find?")
+recipe_type = raw_input("What kind of recipe do you want to find? ")
 
 # Write your code below!
 
@@ -43,5 +43,5 @@ for i in range(len(recipes)):
 
 choice = int(raw_input("Choose a recipe (number): "))
 
-print("Great choice!  You can find that recipe here:")
+print("Great choice!  You can find that recipe here: ")
 print(recipes[choice]["href"])

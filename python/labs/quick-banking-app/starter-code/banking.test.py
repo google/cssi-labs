@@ -84,7 +84,7 @@ assert acc.label == "real acc", \
     "Expected label to be 'real acc', instead saw %s" % acc.label
 print("Test 4.1 passed!")
 
-cont = input("\nDid you do level 2? [y|n]: ").lower()
+cont = raw_input("\nDid you do level 2? [y|n]: ").lower()
 if cont == "n":
     sys.exit()
 

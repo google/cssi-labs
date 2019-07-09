@@ -11,7 +11,7 @@ You've been given the HTML for a basic Magic 8 Ball. Your job is to make sure th
 <details>
  <summary>Click for more details</summary>
   <ul>
-    <li>Your HTML and CSS have been completed for you, so focus on writing code in your script.js file.</li>
+    <li>Your HTML and CSS have been completed for you, so focus on writing code in your `script.js` file.</li>
     <li>Think about what kind of event handler you'll need as well as what attributes of which elements you'll need to change.</li>
     <li>Make sure to think about what type of data structure you've seen so far that you can use to hold a list of phrases.</li>
     <li>Make sure that you grab all of the elements you need from the document. Check out the HTML code to find the ids of whichever elements of the page you need in your script.</li>

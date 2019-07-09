@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-let amusementParks = ["Disney World", "Hershey Park", "Six Flags", "Dorney Park", "Sea World"];
+const amusementParks = ["Disney World", "Hershey Park", "Six Flags", "Dorney Park", "Sea World"];
 //Complete task one below
 
 
 
 
-let rollerCoasters = ["Big Thunder Mountain Railroad","Splash Mountain","Space Mountain", "Expedition Everest","The Twilight Zone Tower of Terror"];
+const rollerCoasters = ["Big Thunder Mountain Railroad","Splash Mountain","Space Mountain", "Expedition Everest", "The Twilight Zone Tower of Terror"];
 //Complete task two below
 
 

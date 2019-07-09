@@ -1,6 +1,4 @@
 
-# Shopping List App
-
 ![](/images/shopping-list.png)
 
 ## Background
@@ -10,12 +8,12 @@ You are going to write a program that keeps track of a running shopping list for
 ## Task
 
 Your program should allow for the following functionality:
-* add an item to the list
-* remove an item from the list (assume the item is already there)
-* show all items on the list (printed in a list format)
-* exit the program
+- add an item to the list
+- remove an item from the list (assume the item is already there)
+- show all items on the list (printed in a list format)
+- exit the program
 
-You should start by writing the conditionals.  Remember to use `append()` to add an item to a list, and remember to use `remove()` to remove an item from a list.
+You should start by writing the conditionals.  Remember to use `append()` to add an item to a list and `remove()` to remove an item from a list.
 
 The program will repeatedly ask the user to choose one of the above options until the user chooses to exit the program.
 
@@ -24,11 +22,11 @@ The program will repeatedly ask the user to choose one of the above options unti
 ### Level 2
 
 Your program should allow for the following functionality:
-* add an item to the list
-* remove an item from the list (**do not assume the item is already there**)
-* **check to see if an item is on the list**
-* show all items on the list (printed in a list format)
-* exit the program
+- add an item to the list.
+- remove an item from the list (**do not assume the item is already there**).
+- **check to see if an item is on the list**.
+- show all items on the list (printed in a list format).
+- exit the program.
 
 Similar to above, the program will repeatedly ask the user to choose one of these options.
 
@@ -38,10 +36,10 @@ When removing an item from the list, you should check to make sure the item is a
 
 All of the above, plus any number of the following features:
 
-* Prevent duplicates - before adding an item to the list, first make sure that it doesn't already exist in the list
-* Ask to remove - before removing an item to the list, ask the user if they are sure they want to remove the item from the list.
-* Advanced checking - when checking for an item, if the item is not in the list, ask if they would like to add it.  If it is in the list, ask if they want to remove it
-* Multiple entries - when adding an item to the list, allow the user to add multiple items in one line by separated by commas (using `split()` to separate and `strip()` to remove whitespace - both are string functions).  For example, the user typing in `"eggs, milk, bread"` should add three individual items to the list - `eggs`, `milk`, and `bread`.
+- Prevent duplicates: before adding an item to the list, first make sure that it doesn't already exist in the list.
+- Ask to remove: before removing an item to the list, ask the user if they are sure they want to remove the item from the list.
+- Advanced checking: when checking for an item, if the item is not in the list, ask if they would like to add it.  If it is in the list, ask if they want to remove it.
+- Multiple entries: when adding an item to the list, allow the user to add multiple items in one line separated by commas (using `split()` to separate and `strip()` to remove whitespace - both are string functions).  For example, the user typing in `"eggs, milk, bread"` should add three individual items to the list - `eggs`, `milk`, and `bread`.
 
 ## Skills you may need
 

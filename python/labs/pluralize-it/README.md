@@ -1,6 +1,3 @@
-
-# Pluralize-It
-
 ## Background
 
 Do you know all the ways that you can convert a word from its singular form to its plural?  There are actually quite a few rules that might surprise you.  You can have one goose and one moose, but get one more of each and you've got two geese and two moose.  What?
@@ -13,9 +10,9 @@ Just like in the last lab, you'll need to use the `touch pluralizer.py` command 
 
 ## Task
 
-Ask the user for a number, then a word, then print out a phrase that depends on the number and the word.
+Ask the user for a number, then a word, and then print out a phrase that depends on the number and the word.
 
-You should pluralize the word by adding an "s" to the end whenenver they enter a number that is 0 or greater than 1.
+You should pluralize the word by adding an "s" to the end whenever they enter a number that is 0 or greater than 1.
 
 You'll need to implement an `if`/`else` statement in your code, since you don't want to pluralize the word in every instance!
 
@@ -61,7 +58,6 @@ Let's implement some more advanced rules:
 | -sh/ch          | -shes/ches   | bush -> bushes <br> church -> churches|
 | -us             | -i           | cactus -> cacti    |
 | -ay/oy/ey/uy    | -ays/oys/eys/uys | guy -> guys <br> toy -> toys <br> key -> keys <br> way -> ways         |
-|                 |              | way -> ways        |
 | -y              | -ies         | fly -> flies       |
 | everything else | add -s       | hat -> hats        |
 

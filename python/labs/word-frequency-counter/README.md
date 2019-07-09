@@ -1,19 +1,17 @@
 
-# Word Frequency Counter
-
 ## Background
 
-Many artificial intelligence systems can do amazing things nowadays, like translate words, or read texts and tell you whether it has a positive tone or a negative tone.  We'll be doing some basic text analysis by counting the words within a text. You are given the entire text of Jane Eyre, a classic novel spanning around 400 pages of text.
+Many artificial intelligence systems can do amazing things nowadays, like translate words, or read texts and tell you whether it has a positive tone or a negative tone.  We'll be doing some basic text analysis by counting the words within a text. You are given the entire text of *Jane Eyre*, a classic novel spanning around 400 pages of text.
 
 ## Task
 
-You are given a starter program, `wordfreq_starter.py`, which already contains the code that loads the book (`war-and-peace.txt`) and saves its content in a big string called `content`.  The text will already have newlines removed and everything converted to lowercase for your convenience.
+You are given a starter program, `wordfreq_starter.py`, which already contains the code that loads the book (`jane-eyre.txt`) and saves its content in a big string called `content`.  The text will already have newlines removed and everything converted to lowercase for your convenience.
 
 In order to count the words, you will have to:
-* Split `content` up by spaces using the `.split()` method
-* Begin looping through each word (separated by spaces)
+- Split `content` up by spaces using the `.split()` method.
+- Begin looping through each word (separated by spaces).
 
-Your job is to use a dictionary to count the frequency of each word.  You should start by creating a dictionary for this purpose, where each key will be a word, and each value would be the count.  Then split the word up by spaces using the `.split()` string function, and then loop through!
+Your job is to use a dictionary to count the frequency of each word.  You should start by creating a dictionary for this purpose, where each key will be a word, and each value will be the count.  Then split the word up by spaces using the `.split()` string function, and then loop through!
 
 So we would start by creating the dictionary:
 
@@ -50,7 +48,7 @@ Your dictionary might look something like this:
 }
 ```
 
-Once you've created the dictionary and looped through all the words in the text, call the `get_highest_words` function, passing along the dictionary, as well as the number of words you want to see.
+Once you've created the dictionary and looped through all the words in the text, call the `get_highest_words` function, passing along the dictionary as well as the number of words you want to see.
 
 You can check to see if you're correct by comparing it to these results for the top 15 words:
 ```
@@ -75,7 +73,7 @@ that: 1466
 
 ### Level 2
 
-You may have noticed that in the results, you have empty spaces topping your list.  This is because when Python splits a string up by spaces, the string `"hi  there"` will be split up into `["hi", "", "there"]`. Can you modify your code to exclude empty spaces?
+You may have noticed that in the results, you have empty spaces topping your list.  This is because when Python splits a string up by spaces, the string `"hi  there"` (with 2 spaces) will be split up into `["hi", "", "there"]`. Can you modify your code to exclude empty spaces?
 
 ### Level 3
 

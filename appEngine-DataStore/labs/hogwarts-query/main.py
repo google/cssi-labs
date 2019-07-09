@@ -20,7 +20,7 @@ import jinja2
 from hogwarts_models import Student, Wand, House, Course, Enrollment, Teacher
 from seed_hogwarts_db import seed_data
 
-jina_env = jinja2.Environment(
+jinja_env = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)

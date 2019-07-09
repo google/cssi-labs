@@ -10,7 +10,7 @@ Fortunately you're not starting from scratch and your friends have provided you
 with some of their favorite activities from their semester abroad.
 Unfortunately, some of the files have gotten mixed up...
 
-![sad!](https://media.giphy.com/media/QajHhLKW3VRcs/giphy.gif)
+![sad!](./img/sad.gif)
 
 
 Don't fret, with the magic of *command line* you'll have them fixed in no time!
@@ -22,9 +22,7 @@ the right monuments inside. Be careful or you might end up in Amsterdam looking
 for the Eiffel Tower!
 
 If you're feeling **REAL** confident with this, hide your GUI and face this
-challenge straight from the command line. You should stay in the general
-around-the-world folder while you do all of this, that means using **absolute**
-paths when referring to folders and files!
+challenge straight from the command line.
 
 Once you're sure everything is in the right place, it's your turn to take
 *command* of your next few months. Brainstorm new cities, countries, and
@@ -41,7 +39,10 @@ choice. Reorganize the files again, while **staying** in that city.
 
     [Terminus Game](http://www.mprat.org/Terminus/)
 
-    [Advanced Game, be ready to google](https://cmdchallenge.com/#/print_file_contents)
+    [Advanced Game](https://cmdchallenge.com/#/print_file_contents) (be ready
+    to Google)
 
-3. Huge fan of star wars? Try running *telnet towel.blinkenlights.nl* in your
-command line and pressing enter...
+3. Huge fan of Star Wars? Try running `telnet towel.blinkenlights.nl` in your
+command line and pressing enter.... (Note that in recent versions of MacOS the
+`telnet` command is no longer installed by default; in this case the command
+`nc towel.blinkenlights.nl 23` can be used instead.)

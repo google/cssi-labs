@@ -38,7 +38,7 @@ class HouseHandler(webapp2.RequestHandler):
 class LoadDataHandler(webapp2.RequestHandler):
     def get(self):
         seed_data()
-
+        self.response.write('Thank you. The Datastore is now seeded.')
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),

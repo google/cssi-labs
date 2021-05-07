@@ -1,0 +1,35 @@
+input::placeholder {
+  color: antiquewhite;
+}
+
+.navbar {
+  background: var(--card-bg);
+}
+
+/* Card start*/
+.card {
+  overflow: hidden;
+  background: yellow;
+  /* color: var(--bg); */
+}
+
+.card.large {
+  border-radius: 5px;
+}
+
+.title.no-padding {
+  margin-bottom: 0 !important;
+}
+
+.footer {
+  background: white;
+}
+
+.footer a:hover {
+  color: crimson;
+}
+
+.fa {
+  color: ghostwhite;
+  margin: 10px
+}

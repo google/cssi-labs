@@ -1,0 +1,27 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": 8111
+    },
+    "database": {
+      "port": 8112
+    },
+    "hosting": {
+      "port": 8113
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}

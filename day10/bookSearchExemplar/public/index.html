@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find a Book</title>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.3.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.3.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-functions.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-storage.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/8.3.0/firebase-performance.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  </head>
+  <body>
+
+    <div class="navbar is-inline-flex is-transparent">
+        <div class="navbar-menu">
+            <div class="navbar-item">
+                <div class="control has-icons-left">
+                    <input class="input is-small has-text-centered" type="text" placeholder="search" id="search">
+                    <span class="icon is-left is-small">
+                        <i class="material-icons">search</i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns body-columns">
+        <div class="column is-half is-offset-one-quarter">
+            <h1 class="title has-text-centered">SEARCH A BOOK!</h1>
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img id="coverImg" src="https://images-platform.99static.com/NLpAAq0zbU-F60KQn1tcEspjPgU=/96x96:864x864/500x500/top/smart/99designs-contests-attachments/113/113716/attachment_113716726">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <p id="bookContent">
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="container is-fluid">
+                    <div class="content has-text-centered">
+                        <p>
+                            <strong>Bulma</strong> by
+                            <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+                            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        // const firebaseConfig = {
+        //     apiKey: "AIzaSyDQBUs3YMBVXOQTVq4C68EKLwl0NkU6RmE",
+        //     authDomain: "book-recs-1580a.firebaseapp.com",
+        //     databaseURL: "https://book-recs-1580a-default-rtdb.firebaseio.com",
+        //     projectId: "book-recs-1580a",
+        //     storageBucket: "book-recs-1580a.appspot.com",
+        //     messagingSenderId: "842740101788",
+        //     appId: "1:842740101788:web:4ef31653c803f124863359",
+        //     measurementId: "G-843YS38J6C"
+        // };
+        // firebase.initializeApp(config);
+    </script>
+    <script src="js/dbConnection.js"></script>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

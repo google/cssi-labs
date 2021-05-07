@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GifMaker!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="hero is-small is-primary has-text-centered">
+    <div class="hero-body">
+      <p class="title">
+        Welcome to the GifFinder!
+      </p>
+      <p class="subtitle">
+        Gifs like grandma used to make :)
+      </p>
+      <img
+        src="https://cdn.glitch.com/89fb5b85-4c20-461c-abe1-c7f1bd17c13c%2FPoweredby_100px-White_VertText.png?v=1619531592690"
+        alt="Powered by Giphy" />
+    </div>
+  </section>
+  <div class="container">
+    <section class="section">
+      <h1 class="title">Ingredients</h1>
+      <h2 class="subtitle">
+        Go ahead and let us know what kind of gif you'd like us to cook up for you!
+      </h2>
+      <input id="search" class="input is-primary is-large" type="text" placeholder="Enter a search term">
+      <div class="mt-4">
+        <button id="submit" class="button is-large">Gif-it!</button>
+      </div>
+    </section>
+    <section class="section">
+      <h1 class="title">Results</h1>
+      <h2 class="subtitle">
+        Your gifs will appear below:
+      </h2>
+      <div id="imageholder">
+        <img src="https://i.pinimg.com/originals/2e/a1/1e/2ea11ee6a5ef8b94da9f0659f92904df.jpg"
+          alt="Close up of a tiny pig" />
+      </div>
+    </section>
+  </div>
+  <script src="/script.js" defer></script>
+</body>
+
+</html>

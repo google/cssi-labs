@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret Messaging App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="js/viewMessages.js"></script>
+  </head>
+
+  <body>
+    <section class="hero is-fullheight">
+        <div class="content">
+            <h2 class="has-text-centered mt-6">View Your Messages!</h2>
+        </div>
+        <div id="passcodeInput" class="hero-body has-text-centered">
+            <div class="login">
+            <form action="javascript:void(0);">
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-medium is-rounded" type="text" placeholder="What's the passcode?" id="passcode" required />
+                    </div>
+                </div>
+                <button class="button is-block is-fullwidth is-primary is-medium is-rounded" type="submit" id="viewMsg">
+                    Click Here
+                </button>
+            </form>
+            <br>
+            </div>
+        </div>
+        <section class="container">
+            <h2 id="message" class="subtitle is-4"></h2>
+        </section>
+
+    </section>
+  </body>
+
+</html>

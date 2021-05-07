@@ -1,0 +1,32 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": 1111
+    },
+    "functions": {
+      "port": 2222
+    },
+    "database": {
+      "port": 3333
+    },
+    "hosting": {
+      "port": 4444,
+      "headers": [
+        { "source":"/service-worker.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}] }
+    ]},
+    "ui": {
+      "enabled": true
+    }
+  }
+}

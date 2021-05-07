@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret Messaging App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="js/writeMessage.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-menu">
+        <a class="navbar-item" href="viewMessages.html">
+          View Your Messages
+        </a>
+      </div>
+    </nav>
+    <h1 class="title has-text-centered">Secret Messaging App</h1>
+    <section class="hero is-fullheight">
+      <div class="hero-body has-text-centered">
+        <div class="login">
+          <img src="https://image.freepik.com/free-vector/colorful-speech-bubbles-set_74855-6314.jpg" width="325px" />
+          <form action="javascript:void(0);">
+            <div class="field">
+              <div class="control">
+                <input class="input is-medium is-rounded" type="text" id="passcode" placeholder="Enter a passcode" autocomplete="username" required />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <textarea class="textarea is-medium is-rounded" type="text" id="message" placeholder="Share a secret message with your friend!" autocomplete="current-password" required></textarea>
+              </div>
+            </div>
+            <br />
+            <button class="button is-block is-fullwidth is-primary is-medium is-rounded">
+              Send Message
+            </button>
+          </form>
+          <br>
+        </div>
+      </div>
+    </section>
+  </body>
+
+</html>

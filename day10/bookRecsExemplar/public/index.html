@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Find your next book!</title>
+	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+	<!-- Bulma Version 0.9.0-->
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="/__/firebase/8.2.6/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.2.6/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.2.6/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+
+<body id="body">
+	<!-- START NAV -->
+	<nav class="navbar">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-burger burger" data-target="navbarMenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</div>
+		</div>
+	</nav>
+    <!-- END NAV -->    
+	<section class="hero is-fullheight">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns is-8 is-variable ">
+					<div class="column is-two-thirds has-text-left">
+                        <h1 class="title is-1">Find Your Next Book!</h1>
+                        <p class="subtitle"><a class="button is-link has-text-weight-medium is-medium" href="addBook.html">Add a Book</a> to Your Library</p>
+						<div>
+                            <img class="coverImg" id="coverImg">
+                        </div>
+                    </div>
+                    
+<!-------------------------------------- BOOK SURVEY -------------------------------------->
+					<div class="column is-one-third has-text-left">
+						<div class="field">
+							<label class="label">What genre are you interested in?</label>
+							<div class="control">
+								<select id="genre" name="genre">
+                                    <option value="action">Action and Adventure</option>
+                                    <option value="sci-fi">Science Fiction</option>
+                                    <option value="non-fiction">Non-Fiction</option>
+                                </select>
+							</div>
+                        </div>
+                        
+						<div class="field">
+                            <p class="label">Are you interested in a series?</p>
+                            <input type="radio" name="series" value="true">
+                            <label for="series">Yes</label><br>
+                            <input type="radio" name="series" value="false">
+                            <label for="no_series">No</label><br>
+                        </div>
+                        
+						    <div class="field">
+						        <label class="label">How do you want this book to make you feel?</label>
+                                <div class="control">
+                                    <select id="emotion" name="emotion">
+                                        <option value="happy">Feel Good</option>
+                                        <option value="pensive">Pensive</option>
+                                        <option value="enlightened">Enlightened</option>
+                                    </select>
+                                </div>
+                            </div>
+
+						<div class="control">
+							<button class="button is-link is-fullwidth has-text-weight-medium is-medium" id="surveySubmit" onclick="handleSubmitSurvey()">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    <script src="js/dbConnection.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

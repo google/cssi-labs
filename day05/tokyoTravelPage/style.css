@@ -1,0 +1,140 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar {
+  background-color: #80B4D9;
+  display: flex;
+  justify-content: flex-end;
+  margin: -10px;
+  margin-bottom: 0px;
+  min-height: 80px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 30px;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: #80B4D9;
+}
+
+.nav-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background-image: url('https://www.japan-guide.com/thumb/destination_tokyo.jpg');
+  background-position: center center;
+  background-size: cover;
+  min-height: 400px;
+  margin: 0px -10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.intro {
+  font-size: 22px;
+  padding: 10%;
+  text-align: center;
+}
+
+.section-header {
+  text-align: center;
+  background-color: #80B4D9;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.recommendation {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.recommendation.reverse {
+  flex-direction: row-reverse;
+}
+
+.img-container {
+  width: 50%;
+  min-height: 400px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img-container#shin {background-image: url('http://img.timeinc.net/time/photoessays/2009/tokyo/tokyo_shinjuku.jpg');}
+.img-container#ueno {background-image: url('http://japan.apike.ca/sites/default/files/jp_img/tokyo_ueno_zoo/tokyo-ueno-zoo-20060826-15-30-57.jpg');}
+.img-container#hara {background-image: url('https://images.japan-experience.com/guide-japon/33378/s880x460/laurentiu-morariu-lfznupiixd4-unsplash.jpg');}
+.img-container#shabu {background-image: url('https://cdn.vox-cdn.com/thumbor/L33PT8M2-84dCYkh6hysa-VKto4=/0x0:4896x3037/1200x800/filters:focal(1741x1068:2523x1850)/cdn.vox-cdn.com/uploads/chorus_image/image/63750007/shutterstock_707212795.0.jpg');}
+.img-container#okonomi {background-image: url('https://lh3.googleusercontent.com/proxy/HGspa45YYUXkyY_g7snMS5eZN89SjrCb2vkLpXXNr0R3wZml9KR50XedcHyy_GS0Wy9Yj55VwKxlI8551XtxRENOqto4rmv0mzpiusTLCcAGZ0UuZxZbQB7wRAwBoe4iRTj_Fno');}
+.img-container#gyudon {background-image: url('https://thedomesticatedman.files.wordpress.com/2016/09/img_9926.jpg');}
+.img-container#wheel {background-image: url('https://www.shutoko.jp/ss/shutokodeikou/special/yakei/img/p007_main-960x450.jpg');}
+.img-container#ghibli {background-image: url('https://en.compathy.net/magazine/wp-content/uploads/2016/11/74778993_YBRtrKtjNufe-wcdTq-S1Q_X1GW-4KlxOkojZzRta10.jpg');}
+.img-container#onsen {background-image: url('https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg');}
+.img-container#mountain {background-image: url('https://www.japan-guide.com/g18/3036_05.jpg');}
+
+.recommendation-content {
+  margin: 0px 40px;
+  width: 50%;
+}
+
+.recommendation-title {
+  font-weight: 100;
+  font-size: 1.5rem;
+/*   transform: scaleY(1.5); */
+}
+
+.recommendation-body {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.hidden {
+  display: none;
+}
+
+.dashboard {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.dashboard input {
+  width: 25%;
+  border: none;
+  border-bottom: 1px black solid;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.dashboard p {
+  font-size: 18px;
+
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}

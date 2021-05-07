@@ -1,0 +1,18 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+.hero-body, .hero-foot {
+  background-image: url('https://cdn.glitch.com/c701f73d-b6fd-4900-b986-32ba4f1563b5%2FPikPng.com_rainbow-png-image_3283328.png?v=1616004347601');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.center-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}

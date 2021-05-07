@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Find your next book!</title>
+	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+	<!-- Bulma Version 0.9.0-->
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="/__/firebase/8.2.6/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.2.6/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.2.6/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+
+<body id="body">
+    <h1 class="title is-1 has-text-centered">Add A Book To Your Library</h1>
+    <div class="field">
+    <label class="label">Title</label>
+    <div class="control">
+        <input id="title" class="input" type="text" placeholder="Title">
+    </div>
+    </div>
+
+    <div class="field">
+    <label class="label">Author</label>
+    <div class="control">
+        <input id="author" class="input" type="text" placeholder="Author">
+    </div>
+    </div>
+
+    <div class="field">
+    <label class="label">Cover Image</label>
+    <div class="control">
+        <input id="cover" class="input" type="text" placeholder="Cover Image">
+    </div>
+    </div>
+
+    <div class="field">
+    <label class="label">Emotions</label>
+    <div class="control">
+        <input id="emotions" class="input" type="text" placeholder="Enter emotions seperated by a comma">
+    </div>
+    </div>
+
+    <div class="field">
+    <label class="label">Genre</label>
+    <div class="control">
+        <input id="genres" class="input" type="text" placeholder="Enter genres seperated by a comma">
+    </div>
+    </div>
+
+    <div class="field">
+        <p class="label">A part of a series?</p>
+        <input type="radio" name="series" value="true">
+        <label for="series">Yes</label><br>
+        <input type="radio" name="series" value="false">
+        <label for="no_series">No</label><br>
+    </div>
+
+    <button class="button is-link has-text-weight-medium is-medium" onclick="handleAddBook()">Add Book</button>
+    <script src="js/script.js"></script>
+</body>
+</html>

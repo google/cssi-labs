@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii Travel Site</title>
+    <script src="https://use.fontawesome.com/5cd833ef09.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+<!--     HERO -->
+    <section class="hero is-medium is-link has-text-centered has-background-white">
+      <div class="hero-body">
+        <p class="title is-1 has-text-black">
+          Aloha 'oe i ko Hawai'i
+        </p>
+        <p class="subtitle is-3 has-text-black">
+          Welcome to Hawaii
+        </p>
+      </div>
+
+<!--       HERO FOOTER -->
+      <div class="hero-foot has-text-black">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li>
+                <a class="navbar-item" onclick="handleEat()">
+                  Eat
+                </a>
+              </li>
+              <li>
+                <a class="navbar-item" onclick="handleSleep()">
+                  Sleep
+                </a>
+              </li>
+              <li>
+                <a class="navbar-item" onclick="handleLearn()">
+                  Learn
+                </a>
+              </li>
+              <li>
+                <a class="navbar-item" onclick="handlePlay()">
+                  Play
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+
+  <div class="content is-normal m-6 has-text-centered">
+    <h1>Come visit the Rainbow State!</h1>
+    <p class="center-content">The Hawaiian Islands are easily the most unique place in America, if not the entire world, and that’s not just because it’s a tropical island chain. In addition to its fascinating, yet tumultuous, history and a unique culture that has been shaped and influenced by a variety of peoples over the course of several centuries, Hawaii is the most isolated population center on earth. Traveling to Hawaii is on just about everyone's bucket list. The gorgeous scenery, aloha spirit, stunning beaches, and exciting activities are just a few of the reasons Hawaii is continually rated as a top vacation destination. Plus, it's also the perfect place to relax, unwind and disconnect from your daily routine.</p>
+    <p> Check out the image gallery below, or learn more by clicking on any of the tabs above. </p>
+    <p> Sources: <a href="https://www.tripster.com/travelguide/top-5-reasons-to-visit-hawaii/">Tripster.com</a>, <a href="https://www.onlyinyourstate.com/hawaii/hi-most-unique-place-in-the-world/">OnlyInYourState.com</a></p>
+  </div>
+
+<!-- EAT MODAL -->
+  <div class="modal" id="eatModal">
+    <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title has-text-centered">Where to Eat in the Rainbow State</p>
+          <button class="delete" onclick="closeEatModal()" aria-label="close"></button>
+        </header>
+        <div class="modal-content">
+          <p class="image">
+            <img src="https://s31606.pcdn.co/wp-content/uploads/2019/01/Assorted-Plates.png" alt="">
+          </p>
+        </div>
+        <section class="modal-card-body">
+          <div class="content">
+            <p>
+              Hawai'i has a rich culinary culture. Many foods were originally brought over from Pacific Polynesian islands. Some of the best known traditional foods are poi, laulau, Kahlua pig, poke, lomi salmon, and chicken long rice. For some great, authentic Hawai'ian dishes, check out these eatereies below.
+            </p>
+            <h2>Best Restaurants on the Big Island</h2>
+          <ul>
+            <li><a href="https://www.fourseasons.com/hualalai/dining/restaurants/ulu_ocean_grill/">Kona Restaurant at the Four Seasons</a></li>
+            <li><a href="https://hawaiianstylecafe.us/index.html">Hawai'ian Style Cafe</a></li>
+            <li><a href="https://www.tripadvisor.com/Restaurant_Review-g60580-d2546474-Reviews-Ka_aloa_s_Super_J_s-Captain_Cook_Island_of_Hawaii_Hawaii.html">Ka'aloa's Super J's</a></li>
+          </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+<!-- SLEEP MODAL -->
+  <div class="modal" id="sleepModal">
+    <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title has-text-centered">Where to Sleep in the Rainbow State</p>
+          <button class="delete" onclick="closeSleepModal()" aria-label="close"></button>
+        </header>
+        <div class="modal-content">
+          <p class="image">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-o/05/f7/29/83/montage-kapalua-bay.jpg" alt="">
+          </p>
+        </div>
+        <section class="modal-card-body">
+          <div class="content">
+            <p>
+              Whether you're traveling on a budget or looking to splurge on a luxury trip, we've got you covered. Check out our list of the best accommodations in Hawai'i.
+            </p>
+            <h2>Best Accommodations on the Big Island</h2>
+          <ul>
+            <li><a href="https://www.airbnb.com/rooms/21952392?adults=1&check_in=2021-08-06&check_out=2021-08-08&federated_search_id=f19768fb-c980-4fe0-8caf-06dc3efb967e&source_impression_id=p3_1615924533_1Os3BxZCBUTc5Vk2&guests=1">Sweet Retreat in Waikiki</a></li>
+            <li><a href="https://www.tripadvisor.com/Hotel_Review-g60982-d2555768-Reviews-Shoreline_Hotel_Waikiki-Honolulu_Oahu_Hawaii.html">Shoreline Hotel Waikiki</a></li>
+            <li><a href="https://www.tripadvisor.com/Hotel_Review-g60634-d4015094-Reviews-Montage_Kapalua_Bay-Lahaina_Maui_Hawaii.html">Montage Kapalua Bay</a></li>
+          </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+<!-- LEARN MODAL -->
+  <div class="modal" id="learnModal">
+    <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title has-text-centered">Learn Hawai'i's History</p>
+          <button class="delete" onclick="closeLearnModal()" aria-label="close"></button>
+        </header>
+        <div class="modal-content">
+          <p class="image">
+            <img src="https://images.squarespace-cdn.com/content/v1/5ae7c948d274cb3827a2db21/1526953324066-E1ISGPFSEF7QCKS6S51O/ke17ZwdGBToddI8pDm48kBMHBux6YLloQo9VnD0ji-d7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mhydAgiKdIfeAoxVgE7c7oEyYWj_Ixra01q53fBqVWvV3h6MQ3CX2m9brj2DWdW0Q/Branding+Building.jpg?format=2500w" alt="">
+          </p>
+        </div>
+        <section class="modal-card-body">
+          <div class="content">
+            <p>
+              From sugar plantations to Pearl harbor, Hawai'i has a rich history. Explore the state through a historical lens.
+            </p>
+            <h2>Museums and Cultural Landmarks in Hawai'i</h2>
+          <ul>
+            <li><a href="https://www.nps.gov/perl/index.htm">Pearl Harbor National Memorial</a></li>
+            <li><a href="https://imiloahawaii.org/">'Imiloa Astronomy Center</a></li>
+            <li><a href="https://sugarmuseum.com/">Sugar Museum</a></li>
+          </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+<!-- PLAY MODAL -->
+  <div class="modal" id="playModal">
+    <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title has-text-centered">Play and Relaxation</p>
+          <button class="delete" onclick="closePlayModal()" aria-label="close"></button>
+        </header>
+        <div class="modal-content">
+          <p class="image">
+            <img src="https://i.pinimg.com/originals/5e/16/1a/5e161ad04075a9f5f65e6cb5cf932ca6.jpg" alt="">
+          </p>
+        </div>
+        <section class="modal-card-body">
+          <div class="content">
+            <p>
+              From sugar plantations to Pearl harbor, Hawai'i has a rich history. Explore the state through a historical lens.
+            </p>
+            <h2>Unique experiences in Hawai'i</h2>
+          <ul>
+            <li><a href="https://www.tripadvisor.com/Attraction_Review-g60603-d560109-Reviews-Ahalanui_Park-Pahoa_Island_of_Hawaii_Hawaii.html">Ahalanui Warm Springs</a></li>
+            <li><a href="https://www.gohawaii.com/experiences/adventure/mountain-tubing">Mountain Tubing</a></li>
+            <li><a href="http://adventureinhawaii.com/oahu/oahu-atv-tours/">Oahu ATV Tours</a></li>
+          </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+<!--     IMAGE GALLERY -->
+    <div class="tile is-ancestor mt-2">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child">
+              <figure class="image is-4by3">
+                <img src="https://i.natgeofe.com/k/f576c284-661a-4046-ba51-fa95699e1a8b/hawaii-beach.png?w=636&h=358">
+              </figure>
+              <figure class="image is-4by3">
+                <img src="https://www.fodors.com/wp-content/uploads/2020/11/hawaii-final-hero.jpg">
+              </figure>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <figure class="image is-2by3">
+                <img src="https://fsa.zobj.net/crop.php?r=5wYEg-H5P1cCUo9iEEPSvn-X6_-H04h0tbkrqE3xfjDhi82RoI0Zi96lA5mOX6YigTAdXW0YCY6VSXqp1JJd5QwsvRg5d0f43owAI1fZLeE17RS7wZN2jzgGeBEHnb3r1nqyLuBifRLW6DnL">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <figure class="image is-3by1">
+              <img src="https://i.pinimg.com/originals/a5/b7/6a/a5b76ae4c98b78b23a6bc645e7741666.jpg">
+            </figure>
+          </article>
+        </div>
+      </div>
+
+      <div class="tile is-vertical">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child">
+              <figure class="image is-2by3">
+                <img src="https://www2.pictorem.com/collection/900_1998005HighRes.jpg">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <figure class="image is-4by3">
+              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hawaii-volcano-kilauea-1526073605.jpg">
+            </figure>
+          </article>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

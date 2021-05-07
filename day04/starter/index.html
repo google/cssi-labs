@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to the Zoo!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <section class="hero is-small notification is-info has-text-centered">
+    <div class="hero-body">
+      <p class="title">
+        Language Quiz
+      </p>
+      <p class="subtitle">
+        Can you guess the top 9 languages spoken in the United States?
+      </p>
+    </div>
+  </section>
+  <div class="container">
+    <section class="section">
+      <h1 class="title">Make some guesses!</h1>
+      <h2 class="subtitle">
+        Type your guesses below! If you get a match, it should show up instantly.
+      </h2>
+      <input id="guess" class="input is-primary is-large" type="text" name="language" placeholder="Guess a language!">
+    </section>
+    <section>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="English">
+            <p class="title">English</p>
+            <p class="subtitle">Hello World</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="Spanish">
+            <p class="title">Spanish</p>
+            <p class="subtitle">Hola Mundo</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="Chinese">
+            <p class="title">Chinese</p>
+            <p class="subtitle">你好世界</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child notification is-info" id="Tagalog">
+            <p class="title">Tagalog</p>
+            <p class="subtitle">Kamusta sa Mundo</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="Vietnamese">
+            <p class="title">Vietnamese</p>
+            <p class="subtitle">Chào thế giới</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="Arabic">
+            <p class="title">Arabic</p>
+            <p class="subtitle">مرحبا بالعالم</p>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="French">
+            <p class="title">French</p>
+            <p class="subtitle">Bonjour le monde</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="Korean">
+            <p class="title">Korean</p>
+            <p class="subtitle">안녕하세요 세계</p>
+          </div>
+        </div>
+        <div class="tile is-parent is-4">
+          <div class="tile is-child notification is-info" id="Russian">
+            <p class="title">Russian</p>
+            <p class="subtitle">Привет мир</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer notification is-info mt-5 mb-0">
+    <div class="content has-text-centered">
+      <p class="subtitle">
+        Thanks for playing!
+      </p>
+      <p>Source: <a
+          href="https://www.accreditedlanguage.com/languages/the-10-most-popular-languages-in-the-us/">Accredited
+          Language Services</a>, translations of "Hello World" prodived by Google Translate</p>
+    </div>
+  </footer>
+  <script src="" type="text/javascript" defer></script>
+</body>
+
+</html>

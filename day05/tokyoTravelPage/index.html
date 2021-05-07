@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>東京</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-item">
+        <a href="#go">Go</a>
+      </div>
+      <div class="nav-item">
+        <a href="#eat">Eat</a>
+      </div>
+      <div class="nav-item">
+        <a href="#do">Do</a>
+      </div>
+    </div>
+    <div class="header">
+      <h1>
+        I Dream of Tokyo...
+      </h1>
+    </div>
+    <div class="container">
+      <section>
+        <p class="intro">
+          Let's build a dream vacation for you! Answer each of the questions to get a recommended itinerary.<br/><br/>
+          Right now, this site is designed so that if you'd like to plan multiple activities per section, you can!
+        </p>
+      </section>
+      <section class="go" id="go">
+        <div class="section-header">
+          <h2 class="section-title">Dream Destination</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following vibes is most interesting to you: <b>shopping, plants, or animals?</b>
+          </p>
+          <input id="go-search" type="text" placeholder="Enter a vibe"/>
+
+        </div>
+        <div class="recommendation hidden" id="go-1">
+          <div class="img-container" id="shin">
+<!--             <img src="http://img.timeinc.net/time/photoessays/2009/tokyo/tokyo_shinjuku.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Shinjuku Gyoen</h3>
+            <p class="recommendation-body">The Shinjuku Gyoen National Garden is a little bit like the Central Park of Tokyo. It does cost 500 yen to enter (about $5 USD), but inside you'll find incredible flowers, beautifully maintained ponds, and peace and serenity that might even make you forget you're in the most populous city in the world.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="go-2">
+          <div class="img-container" id="ueno">
+<!--             <img src="http://japan.apike.ca/sites/default/files/jp_img/tokyo_ueno_zoo/tokyo-ueno-zoo-20060826-15-30-57.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Ueno Park & Zoo</h3>
+            <p class="recommendation-body">The Ueno Park and the Ueno Park Zoo are going to be so much fun! In the park, you'll see dozens of street performers juggling, balancing, and performing all sorts of impressive feats. You'll also have no small share of food carts where you can stop and get a treat like Takoyaki. And then when you're ready to see the animals, you can walk around the Zoo! The penguins are always super cute.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="go-3">
+          <div class="img-container" id="hara">
+<!--             <img src="https://images.japan-experience.com/guide-japon/33378/s880x460/laurentiu-morariu-lfznupiixd4-unsplash.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Harajuku</h3>
+            <p class="recommendation-body">Harajuku is a really famous place to shop, especially if you're interested in Japanese streetwear. You'll find cool shoes, amazing hoodies, and almost anything else you can imagine. If you saw someone wearing something cool and outrageous on the streets of Tokyo and you want to get one for yourself, there's a good chance you can find it in Harajuku. </p>
+          </div>
+        </div>
+      </section>
+      <section class="eat" id="eat">
+        <div class="section-header">
+          <h2 class="section-title">Dream Dinner</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following best describes your dinner budget: <b>expensive, average, or cheap?</b>
+          </p>
+          <input id="eat-search" type="text" placeholder="Enter a budget"/>
+
+        </div>
+        <div class="recommendation hidden" id="eat-1">
+          <div class="img-container" id="shabu">
+<!--             <img src="https://cdn.vox-cdn.com/thumbor/L33PT8M2-84dCYkh6hysa-VKto4=/0x0:4896x3037/1200x800/filters:focal(1741x1068:2523x1850)/cdn.vox-cdn.com/uploads/chorus_image/image/63750007/shutterstock_707212795.0.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Shabu Shabu</h3>
+            <p class="recommendation-body">Shabu Shabu is sometimes compared to fondue, but it's a little different and a lot more delicious! You'll take super thinly sliced pieces of meat and swish them around in a piping hot broth, then dip that freshly cooked meat in some delicious sauces. While there are definitely some shabu shabu places in the United States, it's hard to find one that's an authentic all-you-can-eat shabu shabu experience.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="eat-2">
+          <div class="img-container" id="okonomi">
+<!--             <img src="https://lh3.googleusercontent.com/proxy/HGspa45YYUXkyY_g7snMS5eZN89SjrCb2vkLpXXNr0R3wZml9KR50XedcHyy_GS0Wy9Yj55VwKxlI8551XtxRENOqto4rmv0mzpiusTLCcAGZ0UuZxZbQB7wRAwBoe4iRTj_Fno"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Okonomiyaki</h3>
+            <p class="recommendation-body">Okonomiyaki, sometimes called a savory Japanese Pancake, is actually somewhat closer to a seafood and cabbage omelette. The batter is a lot eggier than a pancake, but a little doughier than just pure eggs, and when it's mixed with octopus, shrimp, pork belly, and other delicious meats, and then covered in its namesake okonomi sauce, it becomes an explosion of flavor!</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="eat-3">
+          <div class="img-container" id="gyudon">
+<!--             <img src="https://thedomesticatedman.files.wordpress.com/2016/09/img_9926.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Gyudon</h3>
+            <p class="recommendation-body">Gyudon literally translated just means "beef bowl", and its an extremely delicious and very affordable option. Thin slices of beef are seasoned to perfection and cooked with onions to make a delicious topping for a bowl of classic Japanese rice. You can even add a raw egg or a semi-cooked onsen egg as a topping - as you stir it in, it cooks right then and there from the heat of the rice bowl.</p>
+          </div>
+        </div>
+      </section>
+      <section class="do" id="do">
+        <div class="section-header">
+          <h2 class="section-title">Dream Diversion</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following activities soundsmost exciting to you: <b>a ride, a museum, a spa, or a hike?</b>
+          </p>
+          <input id="do-search" type="text" placeholder="Enter an activity"/>
+
+        </div>
+        <div class="recommendation hidden" id="do-1">
+          <div class="img-container" id="wheel">
+<!--             <img src="https://www.shutoko.jp/ss/shutokodeikou/special/yakei/img/p007_main-960x450.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Ride a Ferris wheel</h3>
+            <p class="recommendation-body">Tokyo has a ton of Ferris wheels! Each one is a little bit different, but they're all going to give you a beautiful view of whatever part of the city they happen to be in. My personal favorite is the one in Kasai Rinkai Koen, because from the top you can see the ocean, downtown Tokyo in the distance, Mt. Fuji even further off, and Tokyo Disney from above.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-2">
+          <div class="img-container" id="ghibli">
+<!--             <img src="https://en.compathy.net/magazine/wp-content/uploads/2016/11/74778993_YBRtrKtjNufe-wcdTq-S1Q_X1GW-4KlxOkojZzRta10.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit the Studio Ghibli Museum</h3>
+            <p class="recommendation-body">If you've ever seen a Studio Ghibli film, you know that they feature incredible and enchanting spaces and after every single one, you kind of think "I wish I could go there!"</p>
+            <p class="recommendation-body">While the spaces themselves might not actually exist, the Studio Ghibli Museum is a really close approximation. You can eat foods from the film in the cafe, you can find art that isn't avialable anywhere else, and even screen short films shown exclusively in their theatre.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-3">
+          <div class="img-container" id="onsen">
+<!--             <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit an Onsen</h3>
+            <p class="recommendation-body">Japanese Onsens, often called "hot springs" by English Speakers, are incredibly relaxing escapes from the hustle and bustle of the city. There are several you can escape to that are just a short train ride away. You can enjoy a meal, relax in a quiet space, and most importantly, enjoy a long soak in the warm water of a hot spring while taking in the surrounding natural beauty.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-4">
+          <div class="img-container" id="mountain">
+<!--             <img src="https://www.japan-guide.com/g18/3036_05.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Climb a mountain</h3>
+            <p class="recommendation-body">You've probably admired lots of art featuring Mt. Fuji, but you may not have stopped to realize that this means that the Island nation of Japan is chock full of mountains of all size. Hiking up one of these natural wonders will give you lots of time to breathe deeply and take in beautiful, crisp, fresh mountain air while you hike in and around ancient trees and beautiful young plants.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="/script.js" defer></script>
+</html>

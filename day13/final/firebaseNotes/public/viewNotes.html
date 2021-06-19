@@ -40,13 +40,14 @@
           <div class="modal-background"></div>
           <div class="modal-card">
             <section class="modal-card-body">
+	      <input id="editNoteId" type="hidden">
               <p class="is-subtitle">Title</p>
               <input class="input is-normal" id="editTitleInput" type="text">
               <p class="is-subtitle">Text</p>
               <input class="input is-normal" id="editTextInput" type="text">
             </section>
             <footer class="modal-card-foot">
-              <button class="button is-success" id="saveEdit">Save changes</button>
+              <button class="button is-success" onclick="saveEditedNote()">Save changes</button>
               <button class="button" onclick="closeEditModal()">Cancel</button>
             </footer>
           </div>

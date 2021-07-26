@@ -1,3 +1,7 @@
-This is a "readme" file that usually denotes the starting place to get a grasp on the purpose of a project or subfolder.
+# Hello, welcome to day 14
 
-We will be making edits to this file as well as creating new ones, in the hopes of demonstrating the power and nuances of git and VCSs.
+```print("Hello world!")```
+
+#### here is a little image:
+
+[<img src="docs/firebase.png" width="1500px">](https://firebase.google.com/)
